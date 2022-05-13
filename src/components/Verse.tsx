@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-export const Verse = () => {
+const Verse = () => {
+
+    
   return (
-    <div>Verse</div>
+    <div>
+        
+    </div>
   )
 }
+
+export default Verse
