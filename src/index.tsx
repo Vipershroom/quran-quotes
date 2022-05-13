@@ -8,9 +8,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <div className='gradient'>
+    <main>
       <App />
-    </div>
+    </main>
   </React.StrictMode>
 );
 
