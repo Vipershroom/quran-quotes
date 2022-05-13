@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App';
+import Header from './components/Header';
 import './styles/index.scss'
 
 const root = ReactDOM.createRoot(
@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <main>
-      <App />
+      <Header />
     </main>
   </React.StrictMode>
 );
