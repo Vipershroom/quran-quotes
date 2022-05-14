@@ -28,7 +28,7 @@ const Verse = () => {
   useEffect(() => {
     const verseNum = rand()
     const url = `http://api.alquran.cloud/v1/ayah/${verseNum}/editions/quran-uthmani,en.asad,en.pickthall`
-    const data = fetch(url)
+    fetch(url)
     .then(res => {
       return res.json()
     })
