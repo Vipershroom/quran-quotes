@@ -10,7 +10,7 @@ const splitWords = (sentence: string) => {
   let count = 0
   let str = ""
   for (let i of n) {
-    if (count === 10) {
+    if (count === 12) {
       str += '\n'
       count = 0
     }
