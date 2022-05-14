@@ -3,13 +3,14 @@ import '../styles/VerseMod.scss'
 
 const Verse = () => {
 
-  const [verse, setverse] = useState("Placeholder")
+  const [verse, setVerse] = useState("Placeholder")
 
   // useEffect
 
   return (
     <div id='center'>
-        {verse}
+        <h2>{verse}</h2>
+        <p>damn</p>
     </div>
   )
 }
