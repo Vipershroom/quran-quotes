@@ -6,7 +6,7 @@ function App() {
       <div id='header'>
       <h1>Quran Verses</h1>
       <br />
-      <h1 id='verse'>Your Verse of the day is:</h1>
+      <h1>Your Verse of the day is:</h1>
       </div>
 )}
 
