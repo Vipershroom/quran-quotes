@@ -45,7 +45,7 @@ const Verse = () => {
 
   return (
     <div id='center'>
-        <h2>{verse}</h2>
+        <h3>{verse}</h3>
         <p>{verseAuth}</p>
     </div>
   )
