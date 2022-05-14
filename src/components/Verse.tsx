@@ -1,11 +1,15 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import '../styles/VerseMod.scss'
 
 const Verse = () => {
 
-    
+  const [verse, setverse] = useState("Placeholder")
+
+  // useEffect
+
   return (
-    <div>
-        
+    <div id='center'>
+        {verse}
     </div>
   )
 }
