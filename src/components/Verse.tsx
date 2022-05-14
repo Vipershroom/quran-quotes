@@ -36,6 +36,12 @@ const Verse = () => {
       let m = splitWords(data['data'][1]['text'])
       console.log(splitWords(data['data'][1]['text']))
       setVerse(m)
+
+      const auth = data['data'][0]['surah']['englishName']
+      const num1 = data['data'][0]['surah']['number']
+      const num2 = data['data'][0]['numberInSurah']
+
+      setVerseAuth(`${auth}: ${num1}:${num2}`)
     })
     .catch(err => {
       console.log(err)
