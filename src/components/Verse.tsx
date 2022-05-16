@@ -22,8 +22,8 @@ const splitWords = (sentence: string) => {
 
 const Verse = () => {
 
-  const [verse, setVerse] = useState("place")
-  const [verseAuth, setVerseAuth] = useState("place")
+  const [verse, setVerse] = useState("")
+  const [verseAuth, setVerseAuth] = useState("")
 
   useEffect(() => {
     const verseNum = rand()
